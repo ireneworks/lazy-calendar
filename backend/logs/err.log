@@ -1,0 +1,778 @@
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:6
+app.use('/', index);
+^
+
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:6:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:9:13)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:6
+app.use('/', index);
+^
+
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:6:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:9:13)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:6
+app.use('/', authRouter);
+^
+
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:6:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:9:13)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:6
+app.use('/', authRouter);
+^
+
+ReferenceError: app is not defined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:6:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:24:13)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:458
+      throw new TypeError('Router.use() requires middleware function but got a ' + gettype(fn));
+      ^
+
+TypeError: Router.use() requires middleware function but got a Object
+    at Function.use (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:458:13)
+    at EventEmitter.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:220:21)
+    at Array.forEach (native)
+    at EventEmitter.use (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:217:7)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25:5)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25
+Routes();
+^
+
+TypeError: Routes is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/bin/www:7:11)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25
+Routes();
+^
+
+TypeError: Routes is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/bin/www:7:11)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:5
+router.get('/', function(req, res, next) {
+^
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:5:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:1:82)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25
+Routes();
+^
+
+TypeError: Routes is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/bin/www:7:11)
+    at Module._compile (module.js:570:32)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:42:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:31:3
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25
+Routes();
+^
+
+TypeError: Routes is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/bin/www:7:11)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25
+Routes();
+^
+
+TypeError: Routes is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/bin/www:7:11)
+    at Module._compile (module.js:570:32)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:42:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:31:3
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:4
+    app.use('/', authRouter);
+    ^
+
+ReferenceError: app is not defined
+    at module.exports (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:4:5)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:25:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/bin/www:7:11)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:42:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:31:3
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:42:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:31:3
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:42:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:31:3
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:26
+/
+^
+
+SyntaxError: Invalid regular expression: missing /
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/bin/www:7:11)
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './config/database.config.js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:8:20)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './config/database.config.js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:8:20)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './config/database.config.js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:11:20)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './config/database.config.js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:11:20)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './config/database.config.js'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:11:20)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:40:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:29:3
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:5
+router.get('/', function(req, res, next) {
+^
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:5:1)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:4:14)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:10
+module.exports = router;
+                 ^
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:10:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:4:14)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:10
+module.exports = router;
+                 ^
+
+ReferenceError: router is not defined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:10:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:4:14)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1
+(function (exports, require, module, __filename, __dirname) { export.tester = (req, res, next) => {
+                                                              ^^^^^^
+
+SyntaxError: Unexpected token export
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:3:20)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1
+(function (exports, require, module, __filename, __dirname) { export.tester = (req, res, next) => {
+                                                              ^^^^^^
+
+SyntaxError: Unexpected token export
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:3:20)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:4
+/
+^
+
+SyntaxError: Invalid regular expression: missing /
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/index.js:4:14)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:28
+database.connect();
+         ^
+
+TypeError: database.connect is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:28:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/bin/www:7:11)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:28
+console.log(database
+            ^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:56:10)
+    at Object.runInThisContext (vm.js:97:10)
+    at Module._compile (module.js:542:28)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/bin/www:7:11)
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module './database/index'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:27:18)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5
+database.connect();
+         ^
+
+TypeError: database.connect is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/index.js:8:20)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5
+database.connect();
+         ^
+
+TypeError: database.connect is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module '../../../models/auth/index'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module '../../../models/auth/index'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+module.js:471
+    throw err;
+    ^
+
+Error: Cannot find module '../../../models/auth/index'
+    at Function.Module._resolveFilename (module.js:469:15)
+    at Function.Module._load (module.js:417:25)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5
+database.connect();
+         ^
+
+TypeError: database.connect is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5
+database.connect();
+         ^
+
+TypeError: database.connect is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5
+database.connect();
+         ^
+
+TypeError: database.connect is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5:10)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:7
+connection.query('Select * from ')
+          ^
+
+TypeError: Cannot read property 'query' of undefined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:7:11)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:7
+connection.query('Select * from users', function( err, result, fields) {
+          ^
+
+TypeError: Cannot read property 'query' of undefined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:7:11)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:7
+connection.query('Select * from users', function( err, result, fields) {
+          ^
+
+TypeError: Cannot read property 'query' of undefined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:7:11)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5
+const connection = database.connect();
+                            ^
+
+TypeError: database.connect is not a function
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:5:29)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:7
+connection.query('Select * from users', function( err, result, fields) {
+          ^
+
+TypeError: Cannot read property 'query' of undefined
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:7:11)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Module.require (module.js:497:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:1:82)
+    at Module._compile (module.js:570:32)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Cannot enqueue Handshake after already enqueuing a Handshake.
+    at Protocol._validateEnqueue (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:210:16)
+    at Protocol._enqueue (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:139:13)
+    at Protocol.handshake (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Object.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:9:11)
+    at Module._compile (module.js:570:32)
+    at Object.Module._extensions..js (module.js:579:10)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:45:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:67:12)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Cannot enqueue Handshake after already enqueuing a Handshake.
+    at Protocol._validateEnqueue (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:210:16)
+    at Protocol._enqueue (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:139:13)
+    at Protocol.handshake (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Object.getUser (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:9:20)
+    at exports.tester (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:5:16)
+    at Layer.handle [as handle_request] (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:95:5)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:45:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:67:12)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:45:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:67:12)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:45:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:67:12)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Cannot enqueue Handshake after already enqueuing a Handshake.
+    at Protocol._validateEnqueue (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:210:16)
+    at Protocol._enqueue (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:139:13)
+    at Protocol.handshake (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:52:23)
+    at Connection.connect (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/Connection.js:130:18)
+    at Object.getUser (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/models/auth/index.js:10:20)
+    at exports.tester (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/routes/auth/controller.js:5:16)
+    at Layer.handle [as handle_request] (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:95:5)
+Error: No default engine was specified and no extension was provided.
+    at new View (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/view.js:61:11)
+    at EventEmitter.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/application.js:570:12)
+    at ServerResponse.render (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/response.js:971:7)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/app.js:45:7
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:315:13)
+    at /Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/express/lib/router/layer.js:67:12)
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/protocol/Protocol.js:113:13)
+    at Socket.<anonymous> (/Users/martin/Martin_Works/VueJS/auth-nodejs-vuejs/backend/node_modules/mysql/lib/Connection.js:109:28)
+    at emitNone (events.js:91:20)
+    at Socket.emit (events.js:185:7)
+    at endReadableNT (_stream_readable.js:974:12)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
