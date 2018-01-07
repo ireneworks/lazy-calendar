@@ -1,0 +1,23 @@
+{
+  "name": "lazy-calendar",
+  "version": "1.0.0",
+  "description": "Lazy calendar project",
+  "author": "martinyounghoonkim <hoons0131@gmail.com>",
+  "private": true,
+  "scripts": {
+    "serve:dev": "cd frontend && npm run dev & cd backend && npm run serve:dev"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
