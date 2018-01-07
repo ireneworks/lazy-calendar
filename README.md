@@ -1,30 +1,18 @@
-# calendar
+## lazy-calendar
 
-> A Vue.js project
 
-## Build Setup
+### Features
 
-``` bash
-# install dependencies
-npm install
+* Node.js
+* Vue
 
-# serve with hot reload at localhost:8080
-npm run dev
+### Node.js Stack
 
-# build for production with minification
-npm run build
+- Express server
+- Forever
+- Nodemon
 
-# build for production and view the bundle analyzer report
-npm run build --report
+### Vuejs Stack
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- Vue@2.5.2
+- Vue Router@3.0.1
