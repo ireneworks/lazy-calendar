@@ -5,12 +5,12 @@ import Signin from '../pages/Signin/Signin.vue';
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
-  routes: [{
-    path: '/',
-    name: 'Signin',
-    components: {
-      Signin
-    }
-  }]
+    mode: 'history',
+    routes: [{
+        path: '/',
+        name: 'Signin',
+        components: {
+            Signin,
+        },
+    }],
 });
